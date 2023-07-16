@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+.grid-container {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    
+    border: 1px solid rgba(0, 0, 0, 0.698);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+div #3.grid-item{
+	background-color:rgb(255, 0, 0);
+}
+#2.grid-item #5.grid-item{
+	background-color: rgba(0, 0, 0, 0);
+}
